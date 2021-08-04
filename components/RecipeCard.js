@@ -26,11 +26,21 @@ export default function RecipeCard({ recipe }) {
       </div>
 
       <style jsx>{`
+        .card {
+          transition: 300ms ease;
+        }
+
         .card:nth-child(odd) {
             transform: rotateZ(-1deg);
           }
         .card:nth-child(even) {
             transform: rotateZ(1deg);
+          }
+        .card:nth-child(odd):hover {
+            transform: rotateZ(1deg);
+          }
+        .card:nth-child(even):hover {
+            transform: rotateZ(-1deg);
           }
         .content {
           background: #fff;
