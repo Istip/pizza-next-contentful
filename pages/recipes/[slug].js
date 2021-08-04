@@ -85,8 +85,6 @@ export default function RecipeDetails({ recipe }) {
           padding: 12px 24px;
           margin: 0 12px;
           background: #fff;
-          color: grey;
-          transform: rotateZ(-1deg);
         }
       `}</style>
     </div>
